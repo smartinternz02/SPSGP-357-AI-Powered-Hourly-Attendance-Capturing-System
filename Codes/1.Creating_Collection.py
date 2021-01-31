@@ -4,8 +4,8 @@ import csv
 
 # Create client 
 client  = boto3.client('rekognition',
-                       aws_access_key_id = "AKIAYBLVF5PTPGXVAOJT",
-                       aws_secret_access_key = "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",
+                       aws_access_key_id = "Ur key",
+                       aws_secret_access_key = "Ur unique key",
                                              region_name = 'us-east-2'
                        )
 
