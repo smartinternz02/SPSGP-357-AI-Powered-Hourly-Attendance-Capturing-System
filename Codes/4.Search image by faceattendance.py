@@ -13,8 +13,8 @@ faceCascade = cv2.CascadeClassifier(r'C:\Users\HP\Desktop\AI-based-attendance-pr
 
 # Creation of client to rekognition Service
 client  = boto3.client('rekognition',
-                       aws_access_key_id = "AKIAYBLVF5PTPGXVAOJT",
-                       aws_secret_access_key = "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",
+                       aws_access_key_id = "Ur key",
+                       aws_secret_access_key = "Ur unique key",
                                              region_name = 'us-east-2')
 # Creation of client to S3 Service
 s3client  = boto3.client('s3',
